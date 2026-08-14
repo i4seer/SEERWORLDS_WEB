@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#574b2c"/>
+          <stop offset="1" stop-color="#071a31"/>
+        </linearGradient>
+        <radialGradient id="glow">
+          <stop offset="0" stop-color="#d7c487" stop-opacity=".95"/>
+          <stop offset=".35" stop-color="#d7c487" stop-opacity=".35"/>
+          <stop offset="1" stop-color="#d7c487" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="soft"><feGaussianBlur stdDeviation="13"/></filter>
+      </defs>
+      <rect width="600" height="900" rx="18" fill="url(#bg)"/>
+      <circle cx="342" cy="420" r="230" fill="url(#glow)" filter="url(#soft)"/>
+      <g opacity=".18" stroke="#d7c487" fill="none">
+        <circle cx="300" cy="475" r="162" stroke-width="3"/>
+        <circle cx="300" cy="475" r="171" stroke-width="2" stroke-dasharray="7 16"/>
+        <path d="M70 586 Q300 524 530 586" stroke-width="3"/>
+      </g>
+      <g fill="none" stroke="#ffffff" opacity=".18">
+        <path d="M70 720 L145 645 L210 690 L305 570 L380 630 L455 525 L530 610" stroke-width="3"/>
+        <path d="M60 770 L165 710 L260 748 L355 680 L470 735 L540 700" stroke-width="2"/>
+      </g>
+      <circle cx="300" cy="518" r="52" fill="#f6e7bd" stroke="#ffffff" stroke-width="3"/>
+      <ellipse cx="300" cy="542" rx="56" ry="17" fill="#031224" opacity=".25"/>
+      <text x="300" y="112" text-anchor="middle" font-family="Georgia,serif" font-size="24" letter-spacing="7" fill="#ffffff" opacity=".88">SEER WORLDS</text>
+      <text x="300" y="210" text-anchor="middle" font-family="Georgia,serif" font-size="68" fill="#ffffff">MAPS</text>
+      <text x="300" y="257" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="5" fill="#d7c487">BOOK 6</text>
+      <text x="300" y="432" text-anchor="middle" font-family="Georgia,serif" font-size="78" fill="#ffffff" opacity=".88">⌖</text>
+      <text x="300" y="835" text-anchor="middle" font-family="Georgia,serif" font-size="22" letter-spacing="3" fill="#ffffff" opacity=".8">B. CARTER</text>
+    </svg>
