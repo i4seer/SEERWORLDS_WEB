@@ -1,0 +1,9 @@
+{
+  "name": "Seer Worlds",
+  "short_name": "Seer Worlds",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8f4e9",
+  "theme_color": "#102d57",
+  "icons": []
+}
