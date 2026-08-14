@@ -72,7 +72,7 @@ button,input,textarea{font:inherit}
 .world-showcase .ornament span{color:var(--gold)}
 .cover-row{width:min(1300px,100%);margin:auto;display:grid;grid-template-columns:repeat(9,1fr);gap:20px}
 .cover-link{text-align:center;text-decoration:none;color:white;min-width:0}
-.cover-link img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:4px;border:1px solid rgba(255,255,255,.55);box-shadow:0 11px 24px rgba(0,0,0,.38);transition:.22s}
+.cover-link img{width:100%;height:auto;border-radius:4px;border:1px solid rgba(255,255,255,.55);box-shadow:0 11px 24px rgba(0,0,0,.38);transition:.22s}
 .cover-link:hover img{transform:translateY(-7px);box-shadow:0 16px 30px rgba(0,0,0,.48)}
 .cover-link span{display:block;margin-top:8px;font-size:.8rem}
 /* SUBPAGE HERO */
@@ -176,3 +176,22 @@ button,input,textarea{font:inherit}
  .paper-section,.navy-section{padding:58px 0}
 }
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* ===== APPROVED PAINTED BOOK COVERS ===== */
+.cover-link img,
+.book-tile img,
+.world-card img,
+.cover-large{
+  image-rendering:auto;
+  border:1px solid rgba(228,206,162,.60);
+}
+.cover-link img{
+  aspect-ratio:auto;
+  object-fit:contain;
+  background:#071c35;
+}
+.book-tile .cover-wrap{
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+}
