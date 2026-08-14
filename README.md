@@ -1,35 +1,31 @@
-# SEERWORLDS_WEB
+# SEERWORLDS_WEB — Professional GitHub Pages Site
 
-Complete static GitHub Pages website for **Seer Worlds**.
+This is a complete static website matching the approved visual direction:
+cinematic fantasy hero, overlay navigation, torn parchment sections, navy/gold
+branding, illustrated book row, and consistent styling across every page.
 
-## Included
-
-- Home page matching the approved visual direction
+## Pages
+- Home
 - Worlds
 - Books
 - The Journey
 - Meet the Dot
-- About B. Carter
+- About
 - Other Series
 - News
 - Contact
-- Nine individual book pages
-- Hero artwork
-- Nine website cover assets
-- Shared responsive CSS / JavaScript
-- Favicon, manifest, sitemap, robots.txt, .nojekyll
-- Custom 404 page
+- 9 individual book pages
+- Custom 404
 
-## GitHub Pages
+## Publish
+Copy the contents of this ZIP into the root of:
+`i4seer/SEERWORLDS_WEB`
 
-Copy everything in this ZIP to the root of `i4seer/SEERWORLDS_WEB`, commit and push.
+Then enable:
+GitHub → Settings → Pages → Deploy from a branch → main → /(root)
 
-In GitHub:
-Settings → Pages → Deploy from a branch → main → /(root)
-
-There is no build process, npm dependency, framework, or database.
+No build process, npm, framework, or server is required.
 
 ## Contact form
-
-GitHub Pages is static. The included form uses `mailto:`. Replace its action with
-Formspree, Basin, Netlify Forms, or your own API endpoint when you want a true hosted form.
+The included contact form uses `mailto:` because GitHub Pages is static.
+Replace the form `action` later with Formspree/Basin/your own endpoint if desired.

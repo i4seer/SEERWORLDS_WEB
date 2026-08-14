@@ -1,5 +1,10 @@
 
-const toggle=document.querySelector(".nav-toggle");
-const nav=document.querySelector(".nav");
-if(toggle&&nav){toggle.addEventListener("click",()=>{const open=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",open)})}
-document.querySelectorAll(".nav a").forEach(a=>a.addEventListener("click",()=>nav?.classList.remove("open")));
+const menuBtn=document.querySelector(".menu-btn");
+const nav=document.querySelector(".main-nav");
+if(menuBtn&&nav){
+  menuBtn.addEventListener("click",()=>{
+    const open=nav.classList.toggle("open");
+    menuBtn.setAttribute("aria-expanded",String(open));
+  });
+  nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
+}
