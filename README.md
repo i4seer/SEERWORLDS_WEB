@@ -29,3 +29,6 @@ No build process, npm, framework, or server is required.
 ## Contact form
 The included contact form uses `mailto:` because GitHub Pages is static.
 Replace the form `action` later with Formspree/Basin/your own endpoint if desired.
+
+## Clean URLs
+All public pages now use directory-based clean URLs. Root pages such as `/about`, `/worlds`, `/books`, `/journey`, `/dot`, `/news`, `/other-series`, and `/contact` are served from matching `<page>/index.html` files. Book detail pages use the same pattern under `/books/<title>/index.html`. Legacy `.html` files are retained only as redirects to the clean URLs.

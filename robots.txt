@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.seerworlds.com/sitemap.xml
+Sitemap: https://seerworlds.com/sitemap.xml
