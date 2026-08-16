@@ -195,3 +195,95 @@ button,input,textarea{font:inherit}
   align-items:flex-start;
   justify-content:center;
 }
+
+
+/* Homepage cross-series discovery */
+.home-cross-promo{padding-top:82px;padding-bottom:88px}
+.cross-promo-heading{max-width:780px;margin:0 0 32px}
+.cross-promo-heading h2{font-size:clamp(2rem,4vw,3.35rem);line-height:1;margin:.2rem 0 1rem;color:var(--navy)}
+.cross-promo-heading>p:last-child{max-width:720px;color:var(--body);font-size:1.03rem}
+.home-series-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.home-series-card{position:relative;overflow:hidden;min-height:430px;padding:0;background-size:cover;background-position:center}
+.home-series-card:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,20,38,.02) 20%,rgba(2,20,38,.30) 58%,rgba(2,20,38,.88) 100%);z-index:1}
+.home-series-card .series-card-hit{position:absolute;inset:0;z-index:3}
+.home-series-card .series-card-content{position:relative;z-index:2;margin-top:auto;padding:32px;width:100%;text-shadow:0 2px 7px rgba(0,0,0,.72)}
+.home-series-card .series-card-content .eyebrow,
+.home-series-card .series-card-content h3,
+.home-series-card .series-card-content p{color:white}
+.home-series-card .series-card-content h3{font-size:clamp(1.8rem,3vw,2.65rem);margin:.15rem 0 .65rem}
+.home-series-card .series-card-content p{max-width:530px;margin:0}
+.series-cta{display:inline-block;margin-top:16px;color:#fff2c9;font:700 .78rem/1 Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em}
+.series-frights{background-image:url("/assets/seerfrights.webp")}
+.series-warns{background-image:url("/assets/seerwarns.webp")}
+
+/* Rich Seer Worlds footer */
+.footer{
+ background:
+ radial-gradient(circle at 12% 0,rgba(217,154,38,.11),transparent 32%),
+ linear-gradient(145deg,#062d57,#02182f 70%);
+ color:#b9cad9;
+ padding:58px 0 24px;
+ border-top:1px solid rgba(240,188,85,.16)
+}
+.footer .shell{width:min(1220px,calc(100% - 44px));margin-inline:auto}
+.footer a{display:block;text-decoration:none;color:#d5e0e9;font-size:.88rem;margin:9px 0;transition:.18s}
+.footer a:hover{color:white;transform:translateX(2px)}
+.footer-grid{display:grid;grid-template-columns:1.7fr repeat(3,1fr);gap:44px}
+.footer-grid h4{margin:0 0 16px;color:#f1c66f;font:700 .76rem/1 Arial,sans-serif;text-transform:uppercase;letter-spacing:.16em}
+.footer-brand{display:block}
+.footer-logo{display:inline-flex!important;flex-direction:column;text-decoration:none;line-height:.78;margin:0 0 16px!important;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+.footer-logo span{font:700 .7rem/1 Arial,sans-serif;letter-spacing:.42em;color:#edf4f9}
+.footer-logo strong{font:700 1.62rem/.95 Georgia,"Times New Roman",serif;letter-spacing:.055em;color:var(--gold2)}
+.footer-brand p{max-width:330px;font-size:.88rem;line-height:1.55;margin:.35rem 0;color:#b8c9d7}
+.footer-tagline{color:#f1cf89!important;font-style:italic;margin-top:14px!important}
+.footer-meta{margin-top:44px!important;padding-top:20px;border-top:1px solid rgba(255,255,255,.10);font-size:.74rem;line-height:1.55;color:#8299ad;display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap}
+
+@media(max-width:900px){
+ .footer-grid{grid-template-columns:1.4fr 1fr 1fr;gap:34px}
+ .footer-grid>div:last-child{grid-column:2/4}
+}
+@media(max-width:700px){
+ .home-series-grid{grid-template-columns:1fr}
+ .home-series-card{min-height:390px}
+ .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+ .footer-grid>div:first-child{grid-column:1/-1}
+ .footer-grid>div:last-child{grid-column:auto}
+ .footer-meta{flex-direction:column;gap:8px}
+}
+@media(max-width:480px){
+ .footer-grid{grid-template-columns:1fr}
+ .footer-grid>div:first-child,.footer-grid>div:last-child{grid-column:auto}
+}
+
+
+/* Book publication and production status */
+.book-tile{display:flex;flex-direction:column}
+.book-main-link{display:block;flex:1;color:inherit;text-decoration:none}
+.book-main-link:hover h3{color:var(--navy-soft)}
+.book-status{padding:0 24px 24px;margin-top:auto}
+.detail-status{margin:.1rem 0 1.35rem}
+.status-pill{
+ display:inline-block;
+ border-radius:999px;
+ padding:.55rem .78rem;
+ border:1px solid currentColor;
+ font:700 .64rem/1 Arial,sans-serif;
+ letter-spacing:.12em;
+ text-transform:uppercase;
+ text-decoration:none;
+ background:rgba(255,255,255,.84)
+}
+.status-pill.purchase{
+ background:var(--gold);
+ border-color:var(--gold);
+ color:var(--navy-deep)
+}
+.status-pill.purchase:hover{
+ background:var(--gold2);
+ border-color:var(--gold2);
+ color:var(--navy-deep);
+ transform:translateY(-1px)
+}
+.status-pill.review{color:#315f7d;background:#eef6fa}
+.status-pill.writing{color:#7c5f19;background:#fff7dd}
+.status-pill.outlined{color:#66517d;background:#f5effa}
