@@ -1,10 +1,1 @@
-
-const menuBtn=document.querySelector(".menu-btn");
-const nav=document.querySelector(".main-nav");
-if(menuBtn&&nav){
-  menuBtn.addEventListener("click",()=>{
-    const open=nav.classList.toggle("open");
-    menuBtn.setAttribute("aria-expanded",String(open));
-  });
-  nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
-}
+document.querySelectorAll('.menu-btn').forEach(btn=>{btn.addEventListener('click',()=>{const nav=btn.parentElement.querySelector('.main-nav');const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',open?'true':'false')})});

@@ -1,34 +1,13 @@
-# SEERWORLDS_WEB — Professional GitHub Pages Site
+# Seer Worlds website — September 2026 update
 
-This is a complete static website matching the approved visual direction:
-cinematic fantasy hero, overlay navigation, torn parchment sections, navy/gold
-branding, illustrated book row, and consistent styling across every page.
+This build uses the approved second-version layout with a white editorial background and the current Books 1–9 cover fronts.
 
-## Pages
-- Home
-- Worlds
-- Books
-- The Journey
-- Meet the Dot
-- About
-- Other Series
-- News
-- Contact
-- 9 individual book pages
-- Custom 404
-
-## Publish
-Copy the contents of this ZIP into the root of:
-`i4seer/SEERWORLDS_WEB`
-
-Then enable:
-GitHub → Settings → Pages → Deploy from a branch → main → /(root)
-
-No build process, npm, framework, or server is required.
-
-## Contact form
-The included contact form uses `mailto:` because GitHub Pages is static.
-Replace the form `action` later with Formspree/Basin/your own endpoint if desired.
-
-## Clean URLs
-All public pages now use directory-based clean URLs. Root pages such as `/about`, `/books`, `/journey`, `/dot`, `/news`, `/other-series`, and `/contact` are served from matching `<page>/index.html` files. Book detail pages use the same pattern under `/books/<title>/index.html`. Legacy `.html` files are retained only as redirects to the clean URLs.
+## Updated
+- Main cream/yellow page surfaces changed to white.
+- Current cover artwork installed for Books 1–9.
+- Homepage shelf expanded to Books 1–9.
+- Books page expanded through SHADOWS and PROMISES.
+- Added Book 8 and Book 9 detail pages.
+- Book 7 navigation now continues into Book 8.
+- News and sitemap updated through Book 9.
+- Existing hero, navigation, About text-only author section, footer, and responsive behavior retained.
