@@ -1,13 +1,12 @@
-# Seer Worlds website — September 2026 update
+# Seer Worlds website
 
-This build uses the approved second-version layout with a white editorial background and the current Books 1–9 cover fronts.
+Complete deployable site.
 
-## Updated
-- Main cream/yellow page surfaces changed to white.
-- Current cover artwork installed for Books 1–9.
-- Homepage shelf expanded to Books 1–9.
-- Books page expanded through SHADOWS and PROMISES.
-- Added Book 8 and Book 9 detail pages.
-- Book 7 navigation now continues into Book 8.
-- News and sitemap updated through Book 9.
-- Existing hero, navigation, About text-only author section, footer, and responsive behavior retained.
+## 2026-09-07 homepage update
+- New full-width cinematic homepage hero.
+- Hero artwork runs edge-to-edge beneath the main navigation.
+- Headline, buttons, and supporting copy remain editable HTML.
+- Uses the Seer Worlds reflective Dot as a separate foreground element.
+- Hero language uses "Several worlds to explore" rather than a fixed world count.
+- Series pillars now follow the hero before the Books section.
+- Responsive desktop, tablet, and mobile hero styling included.
