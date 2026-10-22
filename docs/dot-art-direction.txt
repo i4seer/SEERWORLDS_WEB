@@ -1,0 +1,11 @@
+Seer Worlds glossy black Dot — 2026-10-22
+Created with the built-in image generation tool.
+Final web assets: assets/img/dot.png, assets/img/dot-shadow.png, assets/img/favicon-32.png, assets/img/favicon-64.png, assets/img/favicon-180.png, assets/favicon.svg.
+
+Use case: precise-object-edit / identity-preserve.
+Asset type: reusable transparent-background character asset for the Seer Worlds website.
+Input image 1: reference for the exact desired material and character, the new river-valley hero. The ONE black reflective sphere near the warm doorway is the Dot. Input image 2: edit target, the older silver Dot on a transparent background.
+Primary request: Replace the silver material of the Dot in image 2 with the rich glossy BLACK mirror-polished material of the Dot in image 1. Preserve the simple perfect spherical identity and clean standalone composition. The sphere must read as polished black obsidian / black chrome with deep jet-black lower hemisphere, a restrained blue sky reflection across the upper hemisphere, and one narrow warm amber rim reflection on the upper right, matching the hero. Reflections should be broad natural landscape silhouettes and sky, with simple dark contours and no recognizable reflected buildings. It must read black at thumbnail size, not silver, gray, transparent or a glass marble.
+Composition: square 1024 x 1024 transparent canvas. Exactly one sphere centered horizontally, filling approximately 65% of canvas width, centered near 45% of canvas height. Hover subtly above one soft low-opacity elliptical contact shadow. Generous transparent padding, complete silhouette entirely inside canvas. No floor or backdrop. Shadow should fade naturally into actual alpha transparency.
+Lighting: rich dark glossy reflections, controlled highlight, warm right rim and cool upper-left sky. Professional cinematic product rendering with physically credible material, crisp antialiased silhouette. No flat white giant highlight.
+Constraints: REAL TRANSPARENT BACKGROUND, preserve alpha. One Dot only. No text, lines, trails, rings, repeated objects, flares, sparks, stars, orbit marks, decorations, matte black ball, silver lower hemisphere, watermarks, hard rectangle, checkerboard or background scene.

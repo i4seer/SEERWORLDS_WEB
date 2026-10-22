@@ -2,6 +2,29 @@
 
 Complete deployable site.
 
+## 2026-10-22 author and book detail copy
+- The About page uses B. Carter's personal author note with a larger opening paragraph, comfortable spacing, and a distinct signature.
+- All nine book detail pages include the finished premise, hook, setting, blurb, and closing line from each book's `C:\SEERWORLDS\bookNN\images-print\background-text.txt`.
+- Existing introductions, purchase links, reader questions, and navigation remain. Distance's world label now matches the current jacket copy: Bell.
+
+## 2026-10-22 Amazon purchase links
+- Followed the [Amazon series listing](https://www.amazon.com/dp/B0HF832PLR) and its product links to verify the six published books.
+- Book pages offer Kindle links for books 1–6 and paperback links for books 1–3, the editions currently listed by Amazon.
+- The catalog links to the Amazon series. Books 7–9 remain upcoming with no purchase links.
+
+## 2026-10-22 hero and Dot refresh
+- New river-valley hero inspired by the scenic book covers, with one glossy black Dot integrated into the artwork.
+- Removed the old panorama effects, separate hero Dot overlay, and boxed callout. The mobile layout gives the image its own space above the headline.
+- Homepage, About, and Journey illustrations and site icons now share the hero's glossy black Dot finish.
+- Artwork: `assets/seer-worlds-river-hero.webp`, `assets/img/dot-shadow.png`, and `assets/img/dot.png`.
+- Built-in image-generation prompts: [hero art direction](docs/hero-art-direction.txt) and [Dot art direction](docs/dot-art-direction.txt).
+
+## 2026-10-22 book cover refresh
+- Synced all nine featured book covers from `C:\SEERWORLDS`.
+- Books 1–9 use the new scenic `images-print/cover-front.png` artwork, including the newly supplied Memory, Shadows, and Promises covers.
+- Website covers remain 1280 × 2048 WebP images. Existing PNG copies and legacy placeholder assets match the current covers.
+- Cover URLs include a content hash so browsers fetch updated artwork, including the existing book social previews.
+
 ## 2026-09-07 homepage update
 - New full-width cinematic homepage hero.
 - Hero artwork runs edge-to-edge beneath the main navigation.
