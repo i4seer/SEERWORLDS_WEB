@@ -1,3 +1,12 @@
+CURRENT HERO — 2026-10-26
+The current hero uses the author’s approved engraved Distance illustration:
+C:\SEERWORLDS\book01\images-print\background-concept4-approved.png
+It is cropped to 1920 × 1080 and exported to assets/seer-worlds-river-hero.webp.
+The headline remains live HTML in the actual Alegreya SC Black cover font.
+The palette follows the source covers: ivory, deep ink blue, sky blue and ochre.
+No new image generation or source-book rebuild is used for this update.
+
+HISTORICAL HERO — 2026-10-22 (replaced)
 Seer Worlds homepage hero — 2026-10-22
 Generated with the built-in image generation tool.
 Style references: SEERWORLDS books 1, 5, and 6, images-print/cover-front.png.

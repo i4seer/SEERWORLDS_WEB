@@ -1,0 +1,923 @@
+{
+  "source": "SEERWORLDS",
+  "books": [
+    {
+      "number": 1,
+      "title": "Distance",
+      "slug": "distance",
+      "cover": "/assets/covers/distance.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book01/images-print/cover-front.png",
+      "source_cover_sha256": "b7835ab985a05b94b08a8a668747ae0b926b1c33bad1664d46d8a3b5098c1b2e",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/distance.webp",
+      "source_art": "book01/images-print/background-concept4-approved.png",
+      "source_art_sha256": "98d826bd17e5dbfe01cea785c67e16732dc3962b909e11eee7d12d7549a867de",
+      "accent": "#90c4e2"
+    },
+    {
+      "number": 2,
+      "title": "Doors",
+      "slug": "doors",
+      "cover": "/assets/covers/doors.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book02/images-print/cover-front.png",
+      "source_cover_sha256": "7de2332e9573969841238c49ddcc61e494eb99ab58afac05752b3a99a6309507",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/doors.webp",
+      "source_art": "book02/images-print/background-concept4-approved.png",
+      "source_art_sha256": "24bf4c7aee7dc4d7ec0947c42a72bb0ae2b8b2040797299890d58ff61ff59faa",
+      "accent": "#85cebb"
+    },
+    {
+      "number": 3,
+      "title": "Lies",
+      "slug": "lies",
+      "cover": "/assets/covers/lies.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book03/images-print/cover-front.png",
+      "source_cover_sha256": "14993262aecb62db1c9a00ba6673626d79af80c85ee4384a88a651bbe4733dff",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/lies.webp",
+      "source_art": "book03/images-print/background-concept4-approved.png",
+      "source_art_sha256": "908232586a727d133876825201760b83ac73470bb51c102e07e2af6b228f7ae4",
+      "accent": "#cfa0d7"
+    },
+    {
+      "number": 4,
+      "title": "Names",
+      "slug": "names",
+      "cover": "/assets/covers/names.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book04/images-print/cover-front.png",
+      "source_cover_sha256": "b5f3f35eabc7da691a3dd9fe48da7c8c7725a18da38ac6f8e88b7039041d7f64",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/names.webp",
+      "source_art": "book04/images-print/background-concept4-approved.png",
+      "source_art_sha256": "19eb03dfe67ffbb3c03b08946e6b8f7213f964903369ea9269e556bab6016819",
+      "accent": "#e9b868"
+    },
+    {
+      "number": 5,
+      "title": "Time",
+      "slug": "time",
+      "cover": "/assets/covers/time.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book05/images-print/cover-front.png",
+      "source_cover_sha256": "11db369286f4ad52c2b1671f95b6b424ace3bec86665204e7f76bf9313025cb5",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/time.webp",
+      "source_art": "book05/images-print/background-concept4-approved.png",
+      "source_art_sha256": "665984b9bfa44539d6c2dd19514deb1b5a2cb6b03b83e4b99bbdffe51e9aa299",
+      "accent": "#8ecdbe"
+    },
+    {
+      "number": 6,
+      "title": "Maps",
+      "slug": "maps",
+      "cover": "/assets/covers/maps.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book06/images-print/cover-front.png",
+      "source_cover_sha256": "09083f539be5f185406fde876728ac7aa466a1aec84a9362ba5b5e7e7e78bc5d",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/maps.webp",
+      "source_art": "book06/images-print/background-concept4-approved.png",
+      "source_art_sha256": "57ab1428f343f1fd1975ee249e8d82c23531b9b60418e1a27283a0990efe7375",
+      "accent": "#a3c8e2"
+    },
+    {
+      "number": 7,
+      "title": "Memory",
+      "slug": "memory",
+      "cover": "/assets/covers/memory.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book07/images-print/cover-front.png",
+      "source_cover_sha256": "cff4b4577e07c2aff0245cc5e15f9bba66961390d470651653e6da7854888944",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/memory.webp",
+      "source_art": "book07/images-print/background-concept4-approved.png",
+      "source_art_sha256": "87c97ac904f8d286ab94d0a88bc106188dfb86c7c2dd4b7513c747f272456e32",
+      "accent": "#a0ccc0"
+    },
+    {
+      "number": 8,
+      "title": "Shadows",
+      "slug": "shadows",
+      "cover": "/assets/covers/shadows.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book08/images-print/cover-front.png",
+      "source_cover_sha256": "7457b1b5cc24141c9cda892d74c37366946a602f4dd1acbd758ba02a43a1641e",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/shadows.webp",
+      "source_art": "book08/images-print/background-concept4-approved.png",
+      "source_art_sha256": "c74313ad9a1a335600de5d451d12d3341389deefe88b1e1907c349f10d059e0c",
+      "accent": "#c79fcd"
+    },
+    {
+      "number": 9,
+      "title": "Promises",
+      "slug": "promises",
+      "cover": "/assets/covers/promises.webp",
+      "size": [
+        1280,
+        2048
+      ],
+      "source_cover": "book09/images-print/cover-front.png",
+      "source_cover_sha256": "c143bdf792f820a970252b7588ae3873521d0788df2c54a3d89be7e5347d38aa",
+      "cover_kind": "current production front cover",
+      "artwork": "/assets/scenes/promises.webp",
+      "source_art": "book09/images-print/background-concept4-approved.png",
+      "source_art_sha256": "e839d669f6dc0ef2dcb0bcff208a3964da1d798a8b655749e11ca3b4ccb2a93b",
+      "accent": "#cb9fb4"
+    },
+    {
+      "number": 10,
+      "title": "Silence",
+      "slug": "silence",
+      "cover": "/assets/covers/silence.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book10/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "70a194a469e5e872a62a68bc75fddc775810e4f626b62525a094172781c5da16",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/silence.webp",
+      "source_art": "book10/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "afcff301408497b28ed5059f1aaec5f21e469165b771838106238b633e1b6f10",
+      "accent": "#80c6bd"
+    },
+    {
+      "number": 11,
+      "title": "Gravity",
+      "slug": "gravity",
+      "cover": "/assets/covers/gravity.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book11/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "da38187285a5ea6cf4cb93757fc9982a585dbe2fd9057e03d6cb71d312901ff7",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/gravity.webp",
+      "source_art": "book11/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "6b2a39ab9f4de89b9248b88598fc13ab5ccda5cafac59413c775cd0ede7cc5aa",
+      "accent": "#b5ca90"
+    },
+    {
+      "number": 12,
+      "title": "Echoes",
+      "slug": "echoes",
+      "cover": "/assets/covers/echoes.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book12/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "a8ed37dcb589751c9fd24354c17c7f16f630b5b1f7f30d7067c5cce2608e77bc",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/echoes.webp",
+      "source_art": "book12/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "b95f7d14141dae8d739dea472b713b13d6c60acda99cf113461b1e2586c87615",
+      "accent": "#9dbfd5"
+    },
+    {
+      "number": 13,
+      "title": "Roads",
+      "slug": "roads",
+      "cover": "/assets/covers/roads.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book13/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "edfe0aec3ab3dd3cba91cc574fa599b1625b71e1c1f788f7f2b214d9325ab576",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/roads.webp",
+      "source_art": "book13/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "0407a215bcf91ebd51051b3ca4f288196659939c53e0a40b0f13934851eab2a1",
+      "accent": "#adc58c"
+    },
+    {
+      "number": 14,
+      "title": "Unanswered",
+      "slug": "unanswered",
+      "cover": "/assets/covers/unanswered.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book14/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "28f1edbcfc96356aa320fb91b1671370d11f6c22c2cc6d3908e5b60dd1c1b67f",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/unanswered.webp",
+      "source_art": "book14/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "bbc3b1c27aabc5bc4e822eaccd50d62183201b77bbe4ead35dbe14e56cbb7892",
+      "accent": "#a6c5ae"
+    },
+    {
+      "number": 15,
+      "title": "Lines",
+      "slug": "lines",
+      "cover": "/assets/covers/lines.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book15/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "12549c3bdbd351c27095136120bab091170cbab0cac60215034cf384fc644f61",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/lines.webp",
+      "source_art": "book15/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "54f3a8bcc454e8fa7ce5f65404dd9f6cde24ac5a1c3bba4d6ac7ff199c8ca496",
+      "accent": "#dec175"
+    },
+    {
+      "number": 16,
+      "title": "Weight",
+      "slug": "weight",
+      "cover": "/assets/covers/weight.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book16/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "86a60892444ca008af40743692284466fd03e7bd88c08842c06fe1182cbd9866",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/weight.webp",
+      "source_art": "book16/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "8f541d327c9c8b64b646f2674956499e1f281319a30b025abde323bfd9a00779",
+      "accent": "#dfbf73"
+    },
+    {
+      "number": 17,
+      "title": "Shares",
+      "slug": "shares",
+      "cover": "/assets/covers/shares.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book17/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "f86f32b4f485c1f9d0e39c2eff0248aba556bdec6e943b860a19c2c26f68628a",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/shares.webp",
+      "source_art": "book17/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "75a1fed6ffcacf8fca4d7edd2ac056ec3a5a62f112f478bbd8706765ebcfa728",
+      "accent": "#7cc9c6"
+    },
+    {
+      "number": 18,
+      "title": "Wounds",
+      "slug": "wounds",
+      "cover": "/assets/covers/wounds.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book18/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "28df980aed971043015a9362063ecab6284f2941a2921f8530ae9bdc4db1cfba",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/wounds.webp",
+      "source_art": "book18/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "0c319978b4b903aefbbbbbcd57763c04014df24e38ca8d8160c0c9759101d1af",
+      "accent": "#a9c78c"
+    },
+    {
+      "number": 19,
+      "title": "Requests",
+      "slug": "requests",
+      "cover": "/assets/covers/requests.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book19/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "bd89dad02d4988003d34f76eee7e1a116dd5237a8a0f1fe02de078a880bb36d3",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/requests.webp",
+      "source_art": "book19/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "e8941db260878ab33e7280d8056ac6f5e4e123e832eb6a6204f524ef6f99d32d",
+      "accent": "#97b9d1"
+    },
+    {
+      "number": 20,
+      "title": "Wear",
+      "slug": "wear",
+      "cover": "/assets/covers/wear.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book20/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "ec3fe741e660cb6a12dbe359d6c42f4a98fff89cf6db99981332e474475e17b3",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/wear.webp",
+      "source_art": "book20/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "c43de28118a90e06dc82d3466760f6f8fc5d43257876acf1eb2870a1ed419f98",
+      "accent": "#89c2af"
+    },
+    {
+      "number": 21,
+      "title": "Watching",
+      "slug": "watching",
+      "cover": "/assets/covers/watching.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book21/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "6805f42bb3a3cad8dc6ab128bf6d40bfd538b2d1d2d882faad0748cc02203e29",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/watching.webp",
+      "source_art": "book21/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "bec0b2568eae879f848a6a3c10d42aa86a48af16dd3f532f654f39d661608a46",
+      "accent": "#beabd0"
+    },
+    {
+      "number": 22,
+      "title": "Instructions",
+      "slug": "instructions",
+      "cover": "/assets/covers/instructions.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book22/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "435a888f72cc04b6af4bd0039325b9c2d876d70d7454ddf199824ae5f8bac3fa",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/instructions.webp",
+      "source_art": "book22/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "47d2c37a126f351672962eda691488b1aefe6710fa7cccd8147845bf6daed116",
+      "accent": "#87bba1"
+    },
+    {
+      "number": 23,
+      "title": "Rain",
+      "slug": "rain",
+      "cover": "/assets/covers/rain.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book23/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "77807688754403330e94d1d34d6c0462ab26c91d59c82ab1244ba26e22655393",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/rain.webp",
+      "source_art": "book23/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "20eed5519733c9e53f80543239797c3351409b04c5107da26b41f08fb4df739d",
+      "accent": "#97bad7"
+    },
+    {
+      "number": 24,
+      "title": "Origin",
+      "slug": "origin",
+      "cover": "/assets/covers/origin.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book24/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "52d263fabf066b485717e06cd586b0dc5a312b8cca9bd246a813fce4537b628c",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/origin.webp",
+      "source_art": "book24/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "6aa6a74ed65d8ed24553979df97817958a55f23174e21c9ae101cb3ad336d5c2",
+      "accent": "#93bec5"
+    },
+    {
+      "number": 25,
+      "title": "Siblings",
+      "slug": "siblings",
+      "cover": "/assets/covers/siblings.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book25/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "46ec5c2b21f453d9812fcc1956dc591747d4ca187ff48f679859066c88fb7912",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/siblings.webp",
+      "source_art": "book25/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "d5a9ddcfc68044817212f0c91ed7fcaa8b6296e2074553791d5a9d5ea4e2fd7d",
+      "accent": "#a3aecf"
+    },
+    {
+      "number": 26,
+      "title": "Four",
+      "slug": "four",
+      "cover": "/assets/covers/four.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book26/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "c1725fcf03a7afdf8908312ad787b6b92a36724c17014db10f71d44d11da6298",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/four.webp",
+      "source_art": "book26/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "b6f71a757d0b8dc1ca7543d955fc5275a2b63d28d7e7b739ba2dc18e8a4cf2bb",
+      "accent": "#9dc5a9"
+    },
+    {
+      "number": 27,
+      "title": "Family",
+      "slug": "family",
+      "cover": "/assets/covers/family.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book27/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "c1edbb5ad15d43ce9558cb27263aae07307718b606c2ffb05eeafc9f5334b2b1",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/family.webp",
+      "source_art": "book27/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "2df5a57d599f7b928ae5a698730a30a4ec5e1c10be08149978cb6278ebc2efe7",
+      "accent": "#97b9dc"
+    },
+    {
+      "number": 28,
+      "title": "Borders",
+      "slug": "borders",
+      "cover": "/assets/covers/borders.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book28/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "3a80fab0c7db6853ec73fe582b8e7a35a6837b969dd0d2603a38b06cf1e7e894",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/borders.webp",
+      "source_art": "book28/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "0ac991cdfacb17952339238802d18dd7e5fc0e19ed35fa40eadebbb19a95e791",
+      "accent": "#9bc8b8"
+    },
+    {
+      "number": 29,
+      "title": "Kind",
+      "slug": "kind",
+      "cover": "/assets/covers/kind.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book29/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "b98bbd809a8592fe4fa07351db5fad10ac2fbc96ac54832c18aa37c800b8e5fb",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/kind.webp",
+      "source_art": "book29/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "a57c288c1fdddf335d7a2ecea30365a2461aee6c06f127988b31f95d324386dd",
+      "accent": "#8fbebf"
+    },
+    {
+      "number": 30,
+      "title": "Gaps",
+      "slug": "gaps",
+      "cover": "/assets/covers/gaps.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book30/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "842dc0acd15f91a65fb26cd5c670a5af610a5a442a7480cd12eed85b1f5a1f94",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/gaps.webp",
+      "source_art": "book30/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "07c450f36560efd5d93c869466d077f7689719b1923af9f421705fdd4fff16d5",
+      "accent": "#b5abcd"
+    },
+    {
+      "number": 31,
+      "title": "Borrowed",
+      "slug": "borrowed",
+      "cover": "/assets/covers/borrowed.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book31/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "5598fcc6b21ace45ce7c0befe231a0ca044eb6a7ccf92be3199765caf2514e09",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/borrowed.webp",
+      "source_art": "book31/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "df6c7a82308089beab9dcc5a19276d80e32cf18919bc492d066ef286da50eed3",
+      "accent": "#dda470"
+    },
+    {
+      "number": 32,
+      "title": "Crossings",
+      "slug": "crossings",
+      "cover": "/assets/covers/crossings.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book32/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "90e400bc1ec92c0a63e30dd94d865b53c7d39fc144ce5cb20710733ee100eb6a",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/crossings.webp",
+      "source_art": "book32/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "824d12e9761eff93ce16a9028214bab923824e53f465b6eb066bf22502b6ae96",
+      "accent": "#b6a2c8"
+    },
+    {
+      "number": 33,
+      "title": "Footfalls",
+      "slug": "footfalls",
+      "cover": "/assets/covers/footfalls.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book33/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "15a1c342067cf49b16697d6c99a4f980ea54786476372c2305a2c72b5576524a",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/footfalls.webp",
+      "source_art": "book33/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "7df78f1882ba8218a74acc6fa4444e469a5e5958e08cd16e1d0355bdcad78794",
+      "accent": "#a2c3b1"
+    },
+    {
+      "number": 34,
+      "title": "Districts",
+      "slug": "districts",
+      "cover": "/assets/covers/districts.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book34/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "31f84aa844276ecd849360e4d66ca5c0f84809053d602154f1d05f5a46737272",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/districts.webp",
+      "source_art": "book34/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "2d494aa2500ae8a260b193d0a1de8c98457fd3b31ec58dcfdb1338d705d1edbf",
+      "accent": "#8cc1b7"
+    },
+    {
+      "number": 35,
+      "title": "Sky",
+      "slug": "sky",
+      "cover": "/assets/covers/sky.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book35/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "881587e3c472c0b89a5fd281a98f968cea3796ae96a5708b8093375d3ce55ea5",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/sky.webp",
+      "source_art": "book35/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "cc32b02ec8031bd10676293c15d68b1fad526cc84d6675f47041722f7b23a273",
+      "accent": "#87c0cf"
+    },
+    {
+      "number": 36,
+      "title": "Curves",
+      "slug": "curves",
+      "cover": "/assets/covers/curves.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book36/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "f9eb6d396dc3d657ad234694ed6385fbf8a30a0b88adfbe6eb38006d24fdff33",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/curves.webp",
+      "source_art": "book36/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "3f24e8160284879e37235eda145b27e895e9a242f53f60e2fbc2fa815653f263",
+      "accent": "#99bae1"
+    },
+    {
+      "number": 37,
+      "title": "Upward",
+      "slug": "upward",
+      "cover": "/assets/covers/upward.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book37/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "1654e6eb932540d44eabf391db18ebf7cdfd7f23cb6389c6f0548365cfc9399b",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/upward.webp",
+      "source_art": "book37/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "51ac70b9574101efbe5335819308da9e61cba60403502494e2cc2343972eafb2",
+      "accent": "#97c0dd"
+    },
+    {
+      "number": 38,
+      "title": "Bending",
+      "slug": "bending",
+      "cover": "/assets/covers/bending.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book38/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "ec462814479ce226aeace1c786b2c1e34b252cd3f667729ccee7465cef3ce32d",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/bending.webp",
+      "source_art": "book38/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "1edead7ae55dcb0b863cf0af57e90775885cfb7424499c64777a247e39b27a67",
+      "accent": "#bfabcd"
+    },
+    {
+      "number": 39,
+      "title": "Arrivals",
+      "slug": "arrivals",
+      "cover": "/assets/covers/arrivals.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book39/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "5c4d0991d4ead018917f125d9de7966c70afe77236dbfa6a4dd3aed75cab9879",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/arrivals.webp",
+      "source_art": "book39/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "20bfa054d98c90ffc2fd3c6669a70bb662ee18ad56bce0ba8a6a52f7a2047e1d",
+      "accent": "#a4c79c"
+    },
+    {
+      "number": 40,
+      "title": "Late",
+      "slug": "late",
+      "cover": "/assets/covers/late.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book40/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "878eb9690d1e6fa398ce3fde47ff9ec09a85d8d7c1b23af31e6c346b647d1f91",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/late.webp",
+      "source_art": "book40/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "c11666d7cba4efa4235cb074eb8c9ef42db1668d845001f0a6cd816a3ae9fca3",
+      "accent": "#97b6d0"
+    },
+    {
+      "number": 41,
+      "title": "Thirst",
+      "slug": "thirst",
+      "cover": "/assets/covers/thirst.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book41/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "7ed8a4f5a5c2cb5cae2b4d88b3381334fe61e7ae782e4eadf8e1ef04de8d93a0",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/thirst.webp",
+      "source_art": "book41/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "de34bf98db1eb63f81dd707d6961bc0cbc3bfddb7aa0c640e0387a453e2a9105",
+      "accent": "#97c2ac"
+    },
+    {
+      "number": 42,
+      "title": "Bands",
+      "slug": "bands",
+      "cover": "/assets/covers/bands.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book42/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "b1fc331c0fed2c9250c6fbf777c6bd7ce361ad0fc01f9be9cb5f527e95db0fba",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/bands.webp",
+      "source_art": "book42/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "1ac3b9cd5a151333a6aba734a3bea75b4f909f7a11435055525241aca9a9775a",
+      "accent": "#b0a2c9"
+    },
+    {
+      "number": 43,
+      "title": "Roots",
+      "slug": "roots",
+      "cover": "/assets/covers/roots.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book43/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "bed34aa277e32ad57c0555bbf674fcafc2bdb5151d706204b5bfa78201302f30",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/roots.webp",
+      "source_art": "book43/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "b74074ca40893de2ec9b7a32fbf048d5ccd4fc79d56e1cf7bc6e3284f5faf5ba",
+      "accent": "#a0c789"
+    },
+    {
+      "number": 44,
+      "title": "Sunk",
+      "slug": "sunk",
+      "cover": "/assets/covers/sunk.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book44/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "7286a39c8854570ad049db2b01065d81552f630bc168d00475150f70f58c47a2",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/sunk.webp",
+      "source_art": "book44/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "ad2873eebcc33bf748500b2d6c9e49bd725d0640aab35b93d2bec5e58da5eff9",
+      "accent": "#89c8be"
+    },
+    {
+      "number": 45,
+      "title": "Records",
+      "slug": "records",
+      "cover": "/assets/covers/records.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book45/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "5a239e3569cd3b1f43e10327a14e5031f58580b84e40b1aa3ebea7528ce69481",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/records.webp",
+      "source_art": "book45/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "5bec4d2cff7f224d51a5d855a01d3e2d7c9064fc52bfcca9e2a4a0215e3efb28",
+      "accent": "#c99fb5"
+    },
+    {
+      "number": 46,
+      "title": "Voices",
+      "slug": "voices",
+      "cover": "/assets/covers/voices.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book46/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "39c667dac9cc88323f9e037129dac83cef0d471b160e857bde6db6cfe56f7f07",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/voices.webp",
+      "source_art": "book46/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "636dde59508663e76aed887980179661a3dfbbc94b8eef2977c62141debd09ca",
+      "accent": "#95bbda"
+    },
+    {
+      "number": 47,
+      "title": "Weather",
+      "slug": "weather",
+      "cover": "/assets/covers/weather.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book47/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "f89ae365f541fecb1ff367c6f2f0296814aeac2cb028f631ced07604d22fe9eb",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/weather.webp",
+      "source_art": "book47/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "86602c19b8ff086304abe7bbb0e6c41173e1dcd58e5c04def8a1ad4acd1f62f0",
+      "accent": "#aec596"
+    },
+    {
+      "number": 48,
+      "title": "Stories",
+      "slug": "stories",
+      "cover": "/assets/covers/stories.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book48/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "935613d39f9cc0ed73b141453e7343b536a2a4519ac8d20266f8ee7433015b40",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/stories.webp",
+      "source_art": "book48/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "1c62b1a9d9149c052c13675419e86df949c2b00de255fe96ccfc4ce878415417",
+      "accent": "#c099bf"
+    },
+    {
+      "number": 49,
+      "title": "Keeping",
+      "slug": "keeping",
+      "cover": "/assets/covers/keeping.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book49/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "8dc7549152e2770663df624fbb53ed47b09ec0582620561fb297f1961d8b24ca",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/keeping.webp",
+      "source_art": "book49/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "315ba6008d62a0feb64810d9e6e36ff15c2966223a94ddb0e88b1de4d216e180",
+      "accent": "#cdae8b"
+    },
+    {
+      "number": 50,
+      "title": "Answers",
+      "slug": "answers",
+      "cover": "/assets/covers/answers.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book50/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "523ef36604203af41e35ffd218517d4a829436616288a93db51785c75603c987",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/answers.webp",
+      "source_art": "book50/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "d806b0b8d34f89de14bdb317480e39a1088d47c2b07ca3147e60d39f50060607",
+      "accent": "#93c2d4"
+    },
+    {
+      "number": 51,
+      "title": "Loops",
+      "slug": "loops",
+      "cover": "/assets/covers/loops.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book51/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "bc09ef94a5e01b9c04884d9a5c9b5924a06404ac37fad64859cc201653d33fbf",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/loops.webp",
+      "source_art": "book51/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "00852561759b0abb3d9682161ba65c587b9f34a1e758621bfa75ee16fc1c3e9e",
+      "accent": "#a0c6a6"
+    },
+    {
+      "number": 52,
+      "title": "Why",
+      "slug": "why",
+      "cover": "/assets/covers/why.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book52/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "8e805376181ddcd829b87f527d4052bdb7c8979d5cb5c2e18e9d865b27bf3abc",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/why.webp",
+      "source_art": "book52/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "fb71baa9c6142caea2c0d80160b60425605406377848abb82efba4b50bc3df73",
+      "accent": "#b9acd1"
+    },
+    {
+      "number": 53,
+      "title": "Growing",
+      "slug": "growing",
+      "cover": "/assets/covers/growing.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book53/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "7f4bcdd43699ef3940cfb3aa9b7fe009d4c43ab5f747bbe8daa93857d8ee9365",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/growing.webp",
+      "source_art": "book53/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "89f8d20cbb0abc67dbe9820ca5ad4f91bbf5bcbcbca164736dfcfff60960e2f2",
+      "accent": "#dab288"
+    },
+    {
+      "number": 54,
+      "title": "Pollen",
+      "slug": "pollen",
+      "cover": "/assets/covers/pollen.webp",
+      "size": [
+        1280,
+        1990
+      ],
+      "source_cover": "book54/cover-concepts/concept4-manuscript-front-preview.png",
+      "source_cover_sha256": "c0fdda6522bf32f3f9d577868739102f7ea4af15775f12912a1e9fc4d130c151",
+      "cover_kind": "approved activated cover preview",
+      "artwork": "/assets/scenes/pollen.webp",
+      "source_art": "book54/images-print/background-concept4-manuscript.png",
+      "source_art_sha256": "44613388d8f7b8f3a7f1b342ab417ef1ad6348f5c2db47d944c6c786d9ad99e9",
+      "accent": "#d7bb85"
+    }
+  ]
+}

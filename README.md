@@ -2,6 +2,16 @@
 
 Complete deployable site.
 
+## 2026-10-26 engraved artwork and theme
+
+- Synced all 54 approved cover designs and their source illustrations from `C:\SEERWORLDS`. Books 1–9 use current production front covers; Books 10–54 use the approved native previews named in the source activation manifest, since older production files have not all been rebuilt. Source books are never modified or rebuilt by the website sync.
+- The site follows the engraved covers: ivory paper, deep ink blue, sky blue and ochre, with the same Alegreya SC Black title font and Charter reading fonts. Web fonts and licenses are local in `assets/fonts/`.
+- The homepage uses the actual Distance illustration. Individual book banners use their own source artwork; About and Journey show the Dot in illustrated scenes from Doors and Lies.
+- The homepage and Books page display the six published books, followed by one development notice. Purchase URLs are preserved. News shows Memory (Book 7) in review and Shadows (Book 8) in writing. The three existing unpublished detail pages are retained for future publication but excluded from public shelves and the sitemap.
+- `data/worlds-artwork.json` records source files, fingerprints, cover provenance and colors. `data/worlds-publication.json` controls the published shelf and the next two News entries.
+- Refresh artwork with `python scripts/sync_worlds_artwork.py --source C:/SEERWORLDS`. Requires Pillow, fonttools and BeautifulSoup. BeautifulSoup can be installed locally with `python -m pip install --target .runtime beautifulsoup4`; `.runtime/` is ignored by Git. Use `--pages-only` after local CSS or publication changes.
+- The update is local; deployment remains separate.
+
 ## 2026-10-22 author and book detail copy
 - The About page uses B. Carter's personal author note with a larger opening paragraph, comfortable spacing, and a distinct signature.
 - All nine book detail pages include the finished premise, hook, setting, blurb, and closing line from each book's `C:\SEERWORLDS\bookNN\images-print\background-text.txt`.
