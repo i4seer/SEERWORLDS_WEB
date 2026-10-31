@@ -162,12 +162,19 @@ def update_pages():
                 summary['content'] = 'Different worlds. Same curious Dot. Explore the published Seer Worlds books by B. Carter.'
         if not doc.select_one('link[rel="preload"][as="font"]'):
             doc.head.append(BeautifulSoup('<link rel="preload" as="font" href="/assets/fonts/AlegreyaSC-Black.woff" type="font/woff" crossorigin>', 'html.parser'))
-        # Use actual illustrated worlds in place of the previous glossy Dot cutout.
+        # About introduces the Dot itself; keep its original glossy black portrait.
         for image in doc.select('.dot-panel img,.dot-stage img'):
-            scene_slug = 'lies' if file.parent.name == 'journey' else 'doors'
-            image['src'] = by_slug[scene_slug]['artwork']
-            image['alt'] = 'The black Dot exploring the engraved world of ' + scene_slug.title()
-            image['width'], image['height'] = '1600', '900'
+            if file.parent.name == 'about':
+                image['src'] = '/assets/img/dot-shadow.png'
+                image['alt'] = 'The Dot, a shiny black sphere floating above a soft shadow'
+                image['width'], image['height'] = '512', '512'
+                image['style'] = 'object-fit:contain;object-position:center'
+                image.parent['style'] = 'background:transparent;border:0'
+            else:
+                scene_slug = 'lies' if file.parent.name == 'journey' else 'doors'
+                image['src'] = by_slug[scene_slug]['artwork']
+                image['alt'] = 'The black Dot exploring the engraved world of ' + scene_slug.title()
+                image['width'], image['height'] = '1600', '900'
         if book:
             doc.body['class'] = ['book-detail']
             doc.body['style'] = '--book-accent:' + book['accent'] + ';--book-art:url(\'' + version(book['artwork']) + '\')'
