@@ -21,7 +21,7 @@ from fontTools import subset
 from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = 'https://seerworlds.com'
+SITE = 'https://worlds.i4seer.com'
 
 
 def fingerprint(path):
